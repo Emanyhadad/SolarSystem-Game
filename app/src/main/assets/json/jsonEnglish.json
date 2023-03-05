@@ -1,0 +1,490 @@
+[
+  {
+    "level_no": 1,
+    "unlock_points": 0,
+    "questions": [
+      {
+        "id": 1,
+        "title": "The sun is the largest object in the solar system.",
+        "answer_1": "",
+        "answer_2": "",
+        "answer_3": "",
+        "answer_4": "",
+        "true_answer": "true",
+        "points": 1,
+        "duration": 10000,
+        "pattern": {
+          "pattern_id": 1,
+          "pattern_name": "True of False"
+        },
+        "hint": "it's true!"
+      },
+      {
+        "id": 2,
+        "title": "What is the center of the solar system?  ",
+        "answer_1": "Earth",
+        "answer_2": "The sun",
+        "answer_3": "Mars",
+        "answer_4": "Jupiter",
+        "true_answer": "The sun",
+        "points": 3,
+        "duration": 15000,
+        "pattern": {
+          "pattern_id": 2,
+          "pattern_name": "Choose the correct answer"
+        },
+        "hint": "What is the center of the solar system? The sun"
+      },
+      {
+        "id": 3,
+        "title": "The solar system is located in the ________ galaxy.",
+        "answer_1": "",
+        "answer_2": "",
+        "answer_3": "",
+        "answer_4": "",
+        "true_answer": "Milky Way",
+        "points": 5,
+        "duration": 35000,
+        "pattern": {
+          "pattern_id": 3,
+          "pattern_name": "Fill the answer"
+        },
+        "hint": "The solar system is located in the -Milky Way- galaxy."
+      }
+    ]
+  },
+  {
+    "level_no": 2,
+    "unlock_points": 6,
+    "questions": [
+      {
+        "id": 4,
+        "title": "Earth is the only planet in the solar system with liquid water on its surface.",
+        "answer_1": "",
+        "answer_2": "",
+        "answer_3": "",
+        "answer_4": "",
+        "true_answer": "true",
+        "points": 1,
+        "duration": 10000,
+        "pattern": {
+          "pattern_id": 1,
+          "pattern_name": "True of False"
+        },
+        "hint": "it's true!"
+      },
+      {
+        "id": 5,
+        "title": "How many planets are there in the solar system?",
+        "answer_1": "Five",
+        "answer_2": "Six",
+        "answer_3": "Seven",
+        "answer_4": "Eight",
+        "true_answer": "Eight",
+        "points": 3,
+        "duration": 15000,
+        "pattern": {
+          "pattern_id": 2,
+          "pattern_name": "Choose the correct answer"
+        },
+        "hint": "How many planets are there in the solar system? Eight"
+      },
+      {
+        "id": 6,
+        "title": "The sun is the ________ object in the solar system.",
+        "answer_1": "",
+        "answer_2": "",
+        "answer_3": "",
+        "answer_4": "",
+        "true_answer": "largest",
+        "points":5,
+        "duration": 35000,
+        "pattern": {
+          "pattern_id": 3,
+          "pattern_name": "Fill the answer"
+        },
+        "hint": "The sun is the -largest- object in the solar system."
+
+      }
+    ]
+  },
+  {
+    "level_no": 3,
+    "unlock_points": 12,
+    "questions": [
+      {
+        "id": 7,
+        "title": "There are nine planets in the solar system.",
+        "answer_1": "",
+        "answer_2": "",
+        "answer_3": "",
+        "answer_4": "",
+        "true_answer": "false",
+        "points": 1,
+        "duration": 10000,
+        "pattern": {
+          "pattern_id": 1,
+          "pattern_name": "True of False"
+        },
+        "hint": "False - there are only eight planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune"
+      },
+      {
+        "id": 8,
+        "title": "Which planet is known for its large red spot?",
+        "answer_1": "Mercury",
+        "answer_2": "Venus",
+        "answer_3": "Jupiter",
+        "answer_4": "Saturn",
+        "true_answer": "Jupiter",
+        "points": 3,
+        "duration": 15000,
+        "pattern": {
+          "pattern_id": 2,
+          "pattern_name": "Choose the correct answer"
+        },
+        "hint": "Which planet is known for its large red spot? Jupiter"
+      },
+      {
+        "id": 9,
+        "title": "There are ________ planets in the solar system.",
+        "answer_1": "",
+        "answer_2": "",
+        "answer_3": "",
+        "answer_4": "",
+        "true_answer": "eight",
+        "points": 5,
+        "duration": 35000,
+        "pattern": {
+          "pattern_id": 3,
+          "pattern_name": "Fill the answer"
+        },
+        "hint": "There are -eight- planets in the solar system."
+      }
+    ]
+  }
+,  {
+  "level_no": 4,
+  "unlock_points": 18,
+  "questions": [
+    {
+      "id": 10,
+      "title": "The solar system is located in the Milky Way galaxy",
+      "answer_1": "",
+      "answer_2": "",
+      "answer_3": "",
+      "answer_4": "",
+      "true_answer": "true",
+      "points": 1,
+      "duration": 10000,
+      "pattern": {
+        "pattern_id": 1,
+        "pattern_name": "True of False"
+      },
+      "hint": "it's true!"
+    },
+    {
+      "id": 11,
+      "title": "Which planet is known for its rings?",
+      "answer_1": "Earth",
+      "answer_2": "Jupiter",
+      "answer_3": "Saturn",
+      "answer_4": "Uranus",
+      "true_answer": "Saturn",
+      "points": 3,
+      "duration": 15000,
+      "pattern": {
+        "pattern_id": 2,
+        "pattern_name": "Choose the correct answer"
+      },
+      "hint": "Which planet is known for its rings? Saturn"
+    },
+    {
+      "id": 12,
+      "title": "The four planets closest to the sun are called the ________ planets.",
+      "answer_1": "",
+      "answer_2": "",
+      "answer_3": "",
+      "answer_4": "",
+      "true_answer": "terrestrial",
+      "points": 5,
+      "duration": 35000,
+      "pattern": {
+        "pattern_id": 3,
+        "pattern_name": "Fill the answer"
+      },
+      "hint": "The four planets closest to the sun are called the -terrestrial- planets."
+    }
+  ]
+}
+  ,  {
+  "level_no": 5,
+  "unlock_points": 24,
+  "questions": [
+    {
+      "id": 13,
+      "title": "The planets in the solar system are all the same size",
+      "answer_1": "",
+      "answer_2": "",
+      "answer_3": "",
+      "answer_4": "",
+      "true_answer": "false",
+      "points": 1,
+      "duration": 10000,
+      "pattern": {
+        "pattern_id": 1,
+        "pattern_name": "True of False"
+      },
+      "hint": "False - the planets in the solar system vary greatly in size"
+    },
+    {
+      "id": 14,
+      "title": "Which planet is the smallest in the solar system?",
+      "answer_1": "Mercury",
+      "answer_2": "Venus",
+      "answer_3": "Earth",
+      "answer_4": "Mars",
+      "true_answer": "Mercury",
+      "points": 3,
+      "duration": 15000,
+      "pattern": {
+        "pattern_id": 2,
+        "pattern_name": "Choose the correct answer"
+      },
+      "hint": "Which planet is the smallest in the solar system?Mercury"
+    },
+    {
+      "id": 15,
+      "title": "The four planets farthest from the sun are called the ________ planets.",
+      "answer_1": "",
+      "answer_2": "",
+      "answer_3": "",
+      "answer_4": "",
+      "true_answer": "gas giants",
+      "points": 5,
+      "duration": 35000,
+      "pattern": {
+        "pattern_id": 3,
+        "pattern_name": "Fill the answer"
+      },
+      "hint": "The four planets farthest from the sun are called the -gas giants- planets."
+    }
+  ]
+}
+,  {
+  "level_no": 6,
+  "unlock_points": 30,
+  "questions": [
+    {
+      "id": 16,
+      "title": "The solar system is named after the sun",
+      "answer_1": "",
+      "answer_2": "",
+      "answer_3": "",
+      "answer_4": "",
+      "true_answer": "true",
+      "points": 1,
+      "duration": 10000,
+      "pattern": {
+        "pattern_id": 1,
+        "pattern_name": "True of False"
+      },
+      "hint": "it's true!"
+    },
+    {
+      "id": 17,
+      "title": "Which planet is the hottest in the solar system? ",
+      "answer_1": "Mercury",
+      "answer_2": "Venus",
+      "answer_3": "Earth",
+      "answer_4": "Mars",
+      "true_answer": "Venus",
+      "points": 3,
+      "duration": 15000,
+      "pattern": {
+        "pattern_id": 2,
+        "pattern_name": "Choose the correct answer"
+      },
+      "hint": "Which planet is the hottest in the solar system? Venus"
+    },
+    {
+      "id": 18,
+      "title": "Earth is the ________ planet from the sun",
+      "answer_1": "",
+      "answer_2": "",
+      "answer_3": "",
+      "answer_4": "",
+      "true_answer": "third",
+      "points": 5,
+      "duration": 35000,
+      "pattern": {
+        "pattern_id": 3,
+        "pattern_name": "Fill the answer"
+      },
+      "hint": "Earth is the -third- planet from the sun"
+    }
+  ]
+}
+,  {
+  "level_no": 7,
+  "unlock_points": 36,
+  "questions": [
+    {
+      "id": 19,
+      "title": "The solar system is located in the center of the universe",
+      "answer_1": "",
+      "answer_2": "",
+      "answer_3": "",
+      "answer_4": "",
+      "true_answer": "false",
+      "points": 1,
+      "duration": 10000,
+      "pattern": {
+        "pattern_id": 1,
+        "pattern_name": "True of False"
+      },
+      "hint": "False - the solar system is just one small part of the universe"
+    },
+    {
+      "id": 20,
+      "title": "Which planet is known for its blue color? ",
+      "answer_1": " Earth",
+      "answer_2": "Jupiter",
+      "answer_3": "Saturn",
+      "answer_4": "Neptune",
+      "true_answer": "Neptune",
+      "points": 3,
+      "duration": 15000,
+      "pattern": {
+        "pattern_id": 2,
+        "pattern_name": "Choose the correct answer"
+      },
+      "hint": "Which planet is known for its blue color? Neptune"
+    },
+    {
+      "id": 21,
+      "title": "The planet ________ is known for its red spot.",
+      "answer_1": "",
+      "answer_2": "",
+      "answer_3": "",
+      "answer_4": "",
+      "true_answer": "Jupiter",
+      "points": 5,
+      "duration": 35000,
+      "pattern": {
+        "pattern_id": 3,
+        "pattern_name": "Fill the answer"
+      },
+      "hint": "The planet -Jupiter- is known for its red spot."
+    }
+  ]
+}
+,  {
+  "level_no": 8,
+  "unlock_points": 42,
+  "questions": [
+    {
+      "id": 22,
+      "title": "It takes one year to orbit the sun",
+      "answer_1": "",
+      "answer_2": "",
+      "answer_3": "",
+      "answer_4": "",
+      "true_answer": "true",
+      "points": 1,
+      "duration": 10000,
+      "pattern": {
+        "pattern_id": 1,
+        "pattern_name": "True of False"
+      },
+      "hint": "True - it takes Earth approximately 365.25 days to orbit the sun"
+    },
+    {
+      "id": 23,
+      "title": "Which planet is known for its green color? ",
+      "answer_1": "Earth",
+      "answer_2": "Jupiter",
+      "answer_3": "Uranus",
+      "answer_4": "Saturn",
+      "true_answer": "Uranus",
+      "points": 3,
+      "duration": 15000,
+      "pattern": {
+        "pattern_id": 2,
+        "pattern_name": "Choose the correct answer"
+      },
+      "hint": "Which planet is known for its green color? Uranus"
+    },
+    {
+      "id": 24,
+      "title": "The planet ________ is known for its rings.",
+      "answer_1": "",
+      "answer_2": "",
+      "answer_3": "",
+      "answer_4": "",
+      "true_answer": "Saturn",
+      "points": 5,
+      "duration": 35000,
+      "pattern": {
+        "pattern_id": 3,
+        "pattern_name": "Fill the answer"
+      },
+      "hint": "The planet -Saturn- is known for its rings."
+    }
+  ]
+}
+,  {
+  "level_no": 9,
+  "unlock_points": 50,
+  "questions": [
+    {
+      "id": 25,
+      "title": "The solar system is stationary.",
+      "answer_1": "",
+      "answer_2": "",
+      "answer_3": "",
+      "answer_4": "",
+      "true_answer": "false",
+      "points": 1,
+      "duration": 10000,
+      "pattern": {
+        "pattern_id": 1,
+        "pattern_name": "True of False"
+      },
+      "hint": "False - the solar system is constantly moving through the universe"
+    },
+    {
+      "id": 26,
+      "title": "Which planet is the farthest from the sun?",
+      "answer_1": "Pluto",
+      "answer_2": "Mercury",
+      "answer_3": "Venus",
+      "answer_4": "Earth",
+      "true_answer": "Pluto",
+      "points": 3,
+      "duration": 15000,
+      "pattern": {
+        "pattern_id": 2,
+        "pattern_name": "Choose the correct answer "
+      },
+      "hint": "Which planet is the farthest from the sun? Pluto"
+    },
+    {
+      "id": 27,
+      "title": "The planet ________ is the hottest in the solar system.",
+      "answer_1": "",
+      "answer_2": "",
+      "answer_3": "",
+      "answer_4": "",
+      "true_answer": "Venus",
+      "points": 5,
+      "duration": 35000,
+      "pattern": {
+        "pattern_id": 3,
+        "pattern_name": "Fill the answer"
+      },
+      "hint": "The planet -Venus- is the hottest in the solar system."
+    }
+  ]
+}
+
+]

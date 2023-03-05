@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home6"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Activities.SettingsActivity">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_120sdp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/user"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="@string/my_settings"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_34ssp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:id="@+id/ASBut_Sound"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:layout_margin="@dimen/_10sdp"
+                android:button="@drawable/soundaudioon"
+                android:buttonTint="@color/yellow"
+                android:checked="true"
+                 />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/ASBut_Update"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_70sdp"
+                android:layout_margin="@dimen/_10sdp"
+                android:layout_weight="1"
+                android:background="@drawable/update" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:id="@+id/ASBut_notices"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:layout_margin="@dimen/_10sdp"
+                android:button="@drawable/notifications"
+                android:buttonTint="@color/yellow"
+                android:checked="true"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/ASBut_Delete"
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_60sdp"
+                android:layout_margin="@dimen/_10sdp"
+                android:layout_weight="1"
+                android:buttonTint="@color/yellow"
+                android:background="@drawable/resource_false" />
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/ASBut_History"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_70sdp"
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_weight="1"
+            android:background="@drawable/history"
+            android:buttonTint="@color/yellow"
+            />
+    </LinearLayout>
+
+</LinearLayout>

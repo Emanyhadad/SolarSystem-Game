@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/home"
+    android:orientation="vertical"
+    tools:context=".Activities.AccountActivity">
+
+    <ImageView
+        android:id="@+id/AA_UserImg"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_140sdp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_15sdp"
+        app:srcCompat="@drawable/user"
+        android:contentDescription="@string/todo" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/AA_UserName"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:background="@drawable/background_but"
+        android:gravity="clip_vertical"
+        android:hint="@string/user_name"
+        android:inputType="textEmailAddress"
+        android:padding="@dimen/_10sdp"
+        android:textColor="@color/gold"
+        android:textColorHint="@color/gold"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="bold" />
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/AA_Email"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:background="@drawable/background_but"
+        android:gravity="clip_vertical"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:padding="@dimen/_10sdp"
+        android:textColor="@color/gold"
+        android:textColorHint="@color/gold"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="bold" />
+
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/AA_UserCountry"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:background="@drawable/background_but"
+        android:gravity="clip_vertical"
+        android:hint="@string/country"
+        android:entries="@array/counters"
+        android:inputType="none"
+        android:padding="@dimen/_10sdp"
+        android:textColor="@color/gold"
+        android:textColorHint="@color/gold"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="bold" />
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/AA_UserBD"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:background="@drawable/background_but"
+        android:gravity="clip_vertical"
+        android:hint="@string/birthday"
+        android:padding="@dimen/_10sdp"
+        android:textColor="@color/gold"
+        android:textColorHint="@color/gold"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/RBG_Gender"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/ProfileMale"
+            android:layout_width="@dimen/_110sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:background="@drawable/background_but"
+            android:buttonTint="@color/purple"
+            android:checked="true"
+            android:padding="@dimen/_10sdp"
+            android:text="@string/male"
+            android:textColor="@color/gold"
+            android:textColorHighlight="@color/gold"
+            android:textSize="@dimen/_20ssp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/ProfileFemale"
+            android:layout_width="@dimen/_110sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/background_but"
+            android:buttonTint="@color/purple"
+            android:checked="true"
+            android:padding="@dimen/_10sdp"
+            android:text="@string/female"
+            android:textColor="@color/gold"
+            android:textColorHighlight="@color/gold"
+            android:textSize="@dimen/_20ssp"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/AA_btnOK"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:background="@drawable/background_but"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/save"
+        android:textColor="@color/gold"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>

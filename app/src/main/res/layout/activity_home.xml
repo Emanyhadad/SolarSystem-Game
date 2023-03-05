@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple2"
+    android:foregroundGravity="center"
+    android:gravity="center"
+    tools:context=".Activities.HomeActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/home2"
+        android:contentDescription="@string/todo" />
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#DDB7B7"
+        app:adSize="BANNER"
+        app:adUnitId="cca-app-pub-7858150820917622/2151298269"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.86" />
+
+    <TextView
+        android:id="@+id/HomeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="cursive"
+        android:text="@string/solar_system"
+        android:textAllCaps="true"
+        android:textColor="@color/gold"
+        android:textSize="@dimen/_38ssp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.136" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/HA_btnLevel"
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_below="@+id/HomeTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/background_but"
+        android:text="@string/let_s_play"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/gold"
+        android:textSize="@dimen/_25ssp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.35" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/HA_btnAccount"
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_below="@+id/HA_btnLevel"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/background_but"
+        android:text="@string/my_account"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/gold"
+        android:textSize="@dimen/_25ssp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/HA_btnLevel"
+        app:layout_constraintVertical_bias="0.102" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/HA_btnSetting"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:background="@drawable/setting"
+        android:backgroundTint="@color/gold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/HA_btnAccount"
+        app:layout_constraintVertical_bias="0.12" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/AH_btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logout"
+        android:backgroundTint="@color/yellow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.958" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

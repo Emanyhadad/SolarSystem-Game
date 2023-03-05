@@ -1,0 +1,490 @@
+[
+  {
+    "level_no": 1,
+    "unlock_points": 0,
+    "questions": [
+      {
+        "id": 1,
+        "title": "الشمس هي أكبر جسم في المجموعة الشمسية.",
+        "answer_1": "",
+        "answer_2": "",
+        "answer_3": "",
+        "answer_4": "",
+        "true_answer": "true",
+        "points": 3,
+        "duration": 10000,
+        "pattern": {
+          "pattern_id": 1,
+          "pattern_name": "True of False"
+        },
+        "hint": "صحيح!"
+      },
+      {
+        "id": 2,
+        "title": "ما هو مركز النظام الشمسي؟  ",
+        "answer_1": "الأرض",
+        "answer_2": "الشمس",
+        "answer_3": "المريخ",
+        "answer_4": "المشتري",
+        "true_answer": "الشمس",
+        "points": 2,
+        "duration": 15000,
+        "pattern": {
+          "pattern_id": 2,
+          "pattern_name": "Choose the correct answer"
+        },
+        "hint": "مركز النظام الشمسي هي :الشمس"
+      },
+      {
+        "id": 3,
+        "title": "يقع النظام الشمسي في مجرة ________.",
+        "answer_1": "",
+        "answer_2": "",
+        "answer_3": "",
+        "answer_4": "",
+        "true_answer": "درب التبانة",
+        "points": 1,
+        "duration": 20000,
+        "pattern": {
+          "pattern_id": 3,
+          "pattern_name": "Fill the answer"
+        },
+        "hint": "يقع النظام الشمسي في مجرة درب التبانة."
+      }
+    ]
+  },
+  {
+    "level_no": 2,
+    "unlock_points": 6,
+    "questions": [
+      {
+        "id": 4,
+        "title": "الأرض هي الكوكب الوحيد في النظام الشمسي الذي يحتوي على مياه سائلة على سطحه.",
+        "answer_1": "",
+        "answer_2": "",
+        "answer_3": "",
+        "answer_4": "",
+        "true_answer": "true",
+        "points": 5,
+        "duration": 10000,
+        "pattern": {
+          "pattern_id": 1,
+          "pattern_name": "True of False"
+        },
+        "hint": "صحيح!"
+      },
+      {
+        "id": 5,
+        "title": "كم عدد الكواكب الموجودة في النظام الشمسي؟ ",
+        "answer_1": "خمسة",
+        "answer_2": "ستة",
+        "answer_3": "سبعة",
+        "answer_4": "ثمانية",
+        "true_answer": "ثمانية",
+        "points": 4,
+        "duration": 15000,
+        "pattern": {
+          "pattern_id": 2,
+          "pattern_name": "Choose the correct answer"
+        },
+        "hint": "عدد الكواكب الموجودة في النظام الشمسي ثمانية"
+      },
+      {
+        "id": 6,
+        "title": "الشمس هي الجسم ________ في النظام الشمسي.",
+        "answer_1": "",
+        "answer_2": "",
+        "answer_3": "",
+        "answer_4": "",
+        "true_answer": "الأكبر",
+        "points": 1,
+        "duration": 20000,
+        "pattern": {
+          "pattern_id": 3,
+          "pattern_name": "Fill the answer"
+        },
+        "hint": "الشمس هي أكبر جسم في المجموعة الشمسية."
+
+      }
+    ]
+  },
+  {
+    "level_no": 3,
+    "unlock_points": 12,
+    "questions": [
+      {
+        "id": 7,
+        "title": "هناك تسعة كواكب في النظام الشمسي.",
+        "answer_1": "",
+        "answer_2": "",
+        "answer_3": "",
+        "answer_4": "",
+        "true_answer": "false",
+        "points": 5,
+        "duration": 10000,
+        "pattern": {
+          "pattern_id": 1,
+          "pattern_name": "True of False"
+        },
+        "hint": "خطأ - هناك ثمانية كواكب فقط: عطارد والزهرة والأرض والمريخ والمشتري وزحل وأورانوس ونبتون"
+      },
+      {
+        "id": 8,
+        "title": "أي كوكب معروف بنقطته الحمراء الكبيرة؟",
+        "answer_1": "عطارد",
+        "answer_2": "الزهرة",
+        "answer_3": "المشتري",
+        "answer_4": "زحل",
+        "true_answer": "المشتري",
+        "points": 4,
+        "duration": 15000,
+        "pattern": {
+          "pattern_id": 2,
+          "pattern_name": "Choose the correct answer"
+        },
+        "hint": "كوكب المشتري معروف ببقعه الحمراء الكبيرة"
+      },
+      {
+        "id": 9,
+        "title": "هناك ________ كواكب في النظام الشمسي.",
+        "answer_1": "",
+        "answer_2": "",
+        "answer_3": "",
+        "answer_4": "",
+        "true_answer": "ثمانية",
+        "points": 1,
+        "duration": 20000,
+        "pattern": {
+          "pattern_id": 3,
+          "pattern_name": "Fill the answer"
+        },
+        "hint": "هناك -ثمانية- كواكب في النظام الشمسي."
+      }
+    ]
+  }
+,  {
+  "level_no": 4,
+  "unlock_points":18,
+  "questions": [
+    {
+      "id": 10,
+      "title": "يقع النظام الشمسي في مجرة درب التبانة",
+      "answer_1": "",
+      "answer_2": "",
+      "answer_3": "",
+      "answer_4": "",
+      "true_answer": "true",
+      "points": 5,
+      "duration": 10000,
+      "pattern": {
+        "pattern_id": 1,
+        "pattern_name": "True of False"
+      },
+      "hint": "صحيح!"
+    },
+    {
+      "id": 11,
+      "title": "أي كوكب معروف بحلقاته؟",
+      "answer_1": "الأرض",
+      "answer_2": "المشتري",
+      "answer_3": "زحل",
+      "answer_4": "أورانوس",
+      "true_answer": "زحل",
+      "points": 4,
+      "duration": 15000,
+      "pattern": {
+        "pattern_id": 2,
+        "pattern_name": "Choose the correct answer"
+      },
+      "hint": "كوكب زحل معروف بحلقاته"
+    },
+    {
+      "id": 12,
+      "title": "الكواكب الأربعة الأقرب إلى الشمس تسمى ________ الكواكب.",
+      "answer_1": "",
+      "answer_2": "",
+      "answer_3": "",
+      "answer_4": "",
+      "true_answer": "الكواكب الأرضية",
+      "points": 1,
+      "duration": 20000,
+      "pattern": {
+        "pattern_id": 3,
+        "pattern_name": "Fill the answer"
+      },
+      "hint": "تسمى الكواكب الأربعة الأقرب إلى الشمس بالكواكب الأرضية."
+    }
+  ]
+}
+,  {
+  "level_no": 5,
+  "unlock_points": 24,
+  "questions": [
+    {
+      "id": 13,
+      "title": "الكواكب في المجموعة الشمسية كلها بنفس الحجم",
+      "answer_1": "",
+      "answer_2": "",
+      "answer_3": "",
+      "answer_4": "",
+      "true_answer": "false",
+      "points": 5,
+      "duration": 10000,
+      "pattern": {
+        "pattern_id": 1,
+        "pattern_name": "True of False"
+      },
+      "hint": "خطأ - تختلف الكواكب في النظام الشمسي اختلافًا كبيرًا في الحجم"
+    },
+    {
+      "id": 14,
+      "title": "ما هو اصغر كوكب في المجموعة الشمسية؟",
+      "answer_1": "عطارد",
+      "answer_2": "الزهرة",
+      "answer_3": "الأرض",
+      "answer_4": "المريخ",
+      "true_answer": "عطارد",
+      "points": 4,
+      "duration": 15000,
+      "pattern": {
+        "pattern_id": 2,
+        "pattern_name": "Choose the correct answer"
+      },
+      "hint": "أي كوكب هو أصغر كوكب في المجموعة الشمسية؟ عطارد"
+    },
+    {
+      "id": 15,
+      "title": "تسمى الكواكب الأربعة الأبعد عن الشمس ________ .",
+      "answer_1": "",
+      "answer_2": "",
+      "answer_3": "",
+      "answer_4": "",
+      "true_answer": "عمالقة الغاز",
+      "points": 1,
+      "duration": 20000,
+      "pattern": {
+        "pattern_id": 3,
+        "pattern_name": "Fill the answer"
+      },
+      "hint": "تسمى الكواكب الأربعة الأبعد عن الشمس كواكب الغاز العملاقة."
+    }
+  ]
+}
+,  {
+  "level_no": 6,
+  "unlock_points": 30,
+  "questions": [
+    {
+      "id": 16,
+      "title": "تم تسمية النظام الشمسي بعد الشمس",
+      "answer_1": "",
+      "answer_2": "",
+      "answer_3": "",
+      "answer_4": "",
+      "true_answer": "true",
+      "points": 5,
+      "duration": 10000,
+      "pattern": {
+        "pattern_id": 1,
+        "pattern_name": "True of False"
+      },
+      "hint": "صحيح!"
+    },
+    {
+      "id": 17,
+      "title": "أي كوكب هو الأكثر سخونة في النظام الشمسي؟ ",
+      "answer_1": "عطارد",
+      "answer_2": "الزهرة",
+      "answer_3": "الأرض",
+      "answer_4": "المريخ",
+      "true_answer": "الزهرة",
+      "points": 4,
+      "duration": 15000,
+      "pattern": {
+        "pattern_id": 2,
+        "pattern_name": "Choose the correct answer"
+      },
+      "hint": "أي كوكب هو الأكثر سخونة في النظام الشمسي؟ كوكب الزهرة"
+    },
+    {
+      "id": 18,
+      "title": "الأرض هي ________ كوكب من الشمس",
+      "answer_1": "",
+      "answer_2": "",
+      "answer_3": "",
+      "answer_4": "",
+      "true_answer": "ثالث",
+      "points": 1,
+      "duration": 20000,
+      "pattern": {
+        "pattern_id": 3,
+        "pattern_name": "Fill the answer"
+      },
+      "hint": "الأرض هي الكوكب الثالث من الشمس"
+    }
+  ]
+}
+,  {
+  "level_no": 7,
+  "unlock_points":36,
+  "questions": [
+    {
+      "id": 19,
+      "title": "يقع النظام الشمسي في مركز الكون",
+      "answer_1": "",
+      "answer_2": "",
+      "answer_3": "",
+      "answer_4": "",
+      "true_answer": "false",
+      "points": 5,
+      "duration": 10000,
+      "pattern": {
+        "pattern_id": 1,
+        "pattern_name": "True of False"
+      },
+      "hint": "خطأ - النظام الشمسي هو مجرد جزء صغير من الكون"
+    },
+    {
+      "id": 20,
+      "title": "أي كوكب معروف بلونه الأزرق؟ ",
+      "answer_1": " الأرض",
+      "answer_2": "المشتري",
+      "answer_3": "زحل",
+      "answer_4": "نبون",
+      "true_answer": "نبون",
+      "points": 4,
+      "duration": 15000,
+      "pattern": {
+        "pattern_id": 2,
+        "pattern_name": "Choose the correct answer"
+      },
+      "hint": "يُعرف كوكب نبتون بلونه الأزرق"
+    },
+    {
+      "id": 21,
+      "title": "الكوكب ________ معروف بنقطته الحمراء",
+      "answer_1": "",
+      "answer_2": "",
+      "answer_3": "",
+      "answer_4": "",
+      "true_answer": "المشتري",
+      "points": 1,
+      "duration": 20000,
+      "pattern": {
+        "pattern_id": 3,
+        "pattern_name": "Fill the answer"
+      },
+      "hint": "يشتهر الكوكب -المشتري- بنقطته الحمراء."
+    }
+  ]
+}
+,  {
+  "level_no": 8,
+  "unlock_points": 42,
+  "questions": [
+    {
+      "id": 22,
+      "title": "يستغرق الأمر سنة واحدة للدوران حول الشمس",
+      "answer_1": "",
+      "answer_2": "",
+      "answer_3": "",
+      "answer_4": "",
+      "true_answer": "true",
+      "points": 5,
+      "duration": 10000,
+      "pattern": {
+        "pattern_id": 1,
+        "pattern_name": "True of False"
+      },
+      "hint": "صحيح - يستغرق الأرض حوالي 365.25 يومًا للدوران حول الشمس"
+    },
+    {
+      "id": 23,
+      "title": "أي كوكب معروف بلونه الأخضر؟ ",
+      "answer_1": "الأرض",
+      "answer_2": "المشتري",
+      "answer_3": "أورانوس",
+      "answer_4": "زحل",
+      "true_answer": "أورانوس",
+      "points": 4,
+      "duration": 15000,
+      "pattern": {
+        "pattern_id": 2,
+        "pattern_name": "Choose the correct answer"
+      },
+      "hint": "كوكب أورانوس معروف بلونه الأخضر"
+    },
+    {
+      "id": 24,
+      "title": "الكوكب ________ معروف بحلقاته.",
+      "answer_1": "",
+      "answer_2": "",
+      "answer_3": "",
+      "answer_4": "",
+      "true_answer": "زحل",
+      "points": 1,
+      "duration": 20000,
+      "pattern": {
+        "pattern_id": 3,
+        "pattern_name": "Fill the answer"
+      },
+      "hint": "كوكب زحل معروف بحلقاته."
+    }
+  ]
+}
+,  {
+  "level_no": 9,
+  "unlock_points": 48,
+  "questions": [
+    {
+      "id": 25,
+      "title": "النظام الشمسي ثابت.",
+      "answer_1": "",
+      "answer_2": "",
+      "answer_3": "",
+      "answer_4": "",
+      "true_answer": "false",
+      "points": 5,
+      "duration": 10000,
+      "pattern": {
+        "pattern_id": 1,
+        "pattern_name": "True of False"
+      },
+      "hint": "خطأ - النظام الشمسي يتحرك باستمرار عبر الكون"
+    },
+    {
+      "id": 26,
+      "title": "أي كوكب هو الأبعد عن الشمس؟",
+      "answer_1": "بلوتو",
+      "answer_2": "زحل",
+      "answer_3": "أورانيوس",
+      "answer_4": "المشتري",
+      "true_answer": "بلوتو",
+      "points": 4,
+      "duration": 15000,
+      "pattern": {
+        "pattern_id": 2,
+        "pattern_name": "Choose the correct answer "
+      },
+      "hint": "كوكب بلوتو هو الأبعد عن الشمس"
+    },
+    {
+      "id": 27,
+      "title": "الكوكب ________ هو الأكثر سخونة في المجموعة الشمسية.",
+      "answer_1": "",
+      "answer_2": "",
+      "answer_3": "",
+      "answer_4": "",
+      "true_answer": "الزهرة",
+      "points": 1,
+      "duration": 20000,
+      "pattern": {
+        "pattern_id": 3,
+        "pattern_name": "Fill the answer"
+      },
+      "hint": "كوكب الزهرة هو الأكثر سخونة في المجموعة الشمسية."
+    }
+  ]
+}
+
+]
